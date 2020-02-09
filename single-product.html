@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title>Избрана поръчка</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3 class="mb-4 h-bf">Списък на продуктите (изберете продукт)</h3>
+        <div class="d-flex justify-content-between ">
+            <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+                <label class="image-checkbox">
+                    <img class="img-fluid "
+                        src="https://cdn.ozone.bg/media/catalog/product/cache/1/image/400x498/a4e40ebdc3e371adff845072e1c73f37/g/r/ddbe6de05c7fb5cb83c1aae89ff0d756/grand-theft-auto-v-premium-edition-xbox-one-30.jpg">
+                    <input name="image[]" value="" type="checkbox">
+                    <i class="fa fa-check hidden"></i>
+                    Grand Theft Auto V - Premium Edition (PS4)
+                </label>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+                <label class="image-checkbox">
+                    <img class="img-fluid"
+                        src="https://cdn.ozone.bg/media/catalog/product/cache/1/image/400x498/a4e40ebdc3e371adff845072e1c73f37/n/b/80c8b950f58d46aee18290f80af12530/nba-2k20-ps4-30.jpg">
+                    <input name="image[]" value="" type="checkbox">
+                    <i class="fa fa-check hidden"></i>
+                    NBA 2K20 (PS4)
+                </label>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+                <label class="image-checkbox">
+                    <img class="img-fluid"
+                        src="https://cdn.ozone.bg/media/catalog/product/cache/1/image/a4e40ebdc3e371adff845072e1c73f37/w/w/78265321b7831024d3adf09249f74c60/wwe-2k20-xbox-one-30.jpg">
+                    <input name="image[]" value="" type="checkbox">
+                    <i class="fa fa-check hidden"></i>
+                    WWE 2K20 (PS4)
+                </label>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+                <label class="image-checkbox">
+                    <img class="img-fluid"
+                        src="https://cdn.ozone.bg/media/catalog/product/cache/1/image/400x498/a4e40ebdc3e371adff845072e1c73f37/l/o/8a6c64cf579aca5d83f7149b567ebf60/the-lord-of-the-rings-the-fellowship-of-the-ring-blu-ray-31.jpg">
+                    <input name="image[]" value="" type="checkbox">
+                    <i class="fa fa-check hidden"></i>
+                    The Lord of the Rings: The Fellowship of the Ring (Blu-Ray)
+                </label>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
+                <label class="image-checkbox">
+                    <img class="img-fluid"
+                        src="https://cdn.ozone.bg/media/catalog/product/cache/1/image/400x498/a4e40ebdc3e371adff845072e1c73f37/k/-/e0c22cdfd075e960f717c8c340f5a46f/kurierat-tryabva-da-umre-tami-houg-30.jpg">
+                    <input name="image[]" value="" type="checkbox">
+                    <i class="fa fa-check hidden"></i>
+                    Куриерът трябва да умре (Тами Хоуг)
+                </label>
+            </div>
+        </div>
+        <h3 class="h-bf">Формуляр за връщане</h3>
+
+        <form class="mt-4">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Име</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Име">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Телефон</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Телефон">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Причина за връщане</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+
+            <p style="color: red;">* Наличието на снимки и подробно описание на проблема ще ни помогне да върнем по-бързо становище на заявката за поправка.</p>
+
+            <div class="row m-b-1">
+                <div class="col-sm-3 ">
+                    <button type="button" class="btn color-btn btn-block"
+                        onclick="document.getElementById('inputFile').click()">Добави снимка</button>
+                    <div class="form-group inputDnD">
+                        <label class="sr-only" for="inputFile">File Upload</label>
+                        <input type="file" class="form-control-file color-drag font-weight-bold" id="inputFile"
+                            accept="image/*" onchange="readUrl(this)" data-title="Плъзни и пусни файл">
+                    </div>
+                </div>
+                <div class="col-sm-3 ">
+                    <button type="button" class="btn color-btn btn-block"
+                        onclick="document.getElementById('inputFile').click()">Добави снимка</button>
+                    <div class="form-group inputDnD">
+                        <label class="sr-only" for="inputFile">File Upload</label>
+                        <input type="file" class="form-control-file color-drag font-weight-bold" id="inputFile"
+                            accept="image/*" onchange="readUrl(this)" data-title="Плъзни и пусни файл">
+                    </div>
+                </div>
+                <div class="col-sm-3 ">
+                    <button type="button" class="btn color-btn btn-block"
+                        onclick="document.getElementById('inputFile').click()">Добави снимка</button>
+                    <div class="form-group inputDnD">
+                        <label class="sr-only" for="inputFile">File Upload</label>
+                        <input type="file" class="form-control-file color-drag font-weight-bold" id="inputFile"
+                            accept="image/*" onchange="readUrl(this)" data-title="Плъзни и пусни файл">
+                    </div>
+                </div>
+                <div class="col-sm-3 ">
+                    <button type="button" class="btn color-btn btn-block"
+                        onclick="document.getElementById('inputFile').click()">Добави снимка</button>
+                    <div class="form-group inputDnD">
+                        <label class="sr-only" for="inputFile">File Upload</label>
+                        <input type="file" class="form-control-file color-drag font-weight-bold" id="inputFile"
+                            accept="image/*" onchange="readUrl(this)" data-title="Плъзни и пусни файл">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn color-btn">Изпрати</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+<script>
+    $(".image-checkbox").each(function () {
+        if ($(this).find('input[type="checkbox"]').first().attr("checked")) {
+            $(this).addClass('image-checkbox-checked');
+        } else {
+            $(this).removeClass('image-checkbox-checked');
+        }
+    });
+
+    // sync the state to the input
+    $(".image-checkbox").on("click", function (e) {
+        $(this).toggleClass('image-checkbox-checked');
+        var $checkbox = $(this).find('input[type="checkbox"]');
+        $checkbox.prop("checked", !$checkbox.prop("checked"))
+
+        e.preventDefault();
+    });
+
+    function readUrl(input) {
+
+        if (input.files && input.files[0]) {
+            let reader = new FileReader();
+            reader.onload = (e) => {
+                let imgData = e.target.result;
+                let imgName = input.files[0].name;
+                input.setAttribute("data-title", imgName);
+                console.log(e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+
+    }
+</script>
+
+</html>

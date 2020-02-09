@@ -1,0 +1,388 @@
+.wrapper {
+    margin: 2rem 0;
+}
+
+.first-bg {
+    background: #f3712e;
+}
+
+.myaccordion {
+    /* max-width: 500px; */
+    margin: 50px 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  .myaccordion .card,
+  .myaccordion .card:last-child .card-header {
+    border: none;
+  }
+  
+  .myaccordion .card-header {
+    border-bottom-color: #EDEFF0;
+    background: transparent;
+  }
+  
+  .myaccordion .fa-stack {
+    font-size: 18px;
+  }
+  
+  .myaccordion .btn {
+    width: 100%;
+    font-weight: bold;
+    color: #f3712e;
+    padding: 0;
+  }
+  
+  .myaccordion .btn-link:hover,
+  .myaccordion .btn-link:focus {
+    text-decoration: none;
+  }
+  
+  .myaccordion li + li {
+    margin-top: 10px;
+  }
+
+
+  #datatable > tbody > tr:hover {
+    color: #f3712e !important;
+}
+
+  div.material-table {
+    padding: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  div.material-table .hiddensearch {
+    padding: 0 14px 0 24px;
+    border-bottom: solid 1px #DDDDDD;
+    display: none;
+  }
+  
+  div.material-table .hiddensearch input {
+    margin: 0;
+    border: transparent 0 !important;
+    height: 48px;
+    color: rgba(0, 0, 0, .84);
+  }
+  
+  div.material-table .hiddensearch input:active {
+    border: transparent 0 !important;
+  }
+  
+  div.material-table table {
+    table-layout: fixed;
+  }
+  
+  div.material-table .table-header {
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 14px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-display: flex;
+    border-bottom: solid 1px #DDDDDD;
+  }
+  
+  div.material-table .table-header .actions {
+    display: -webkit-flex;
+    margin-left: auto;
+  }
+  
+  div.material-table .table-header .btn-flat {
+      min-width: 36px;
+      padding: 0 8px;
+  }
+  
+  div.material-table .table-header input {
+    margin: 0;
+    height: auto;
+  }
+  
+  div.material-table .table-header i {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 24px;
+  }
+  
+  div.material-table .table-footer {
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 14px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  
+  div.material-table .table-footer .dataTables_length {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  div.material-table .table-footer label {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row
+    /* works with row or column */
+    
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  
+  div.material-table .table-footer .select-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row
+    /* works with row or column */
+    
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  
+  div.material-table .table-footer .dataTables_info,
+  div.material-table .table-footer .dataTables_length {
+    margin-right: 32px;
+  }
+  
+ 
+  div.material-table .table-footer .select-wrapper input.select-dropdown {
+    margin: 0;
+    border-bottom: none;
+    height: auto;
+    line-height: normal;
+    font-size: 12px;
+    width: 40px;
+    text-align: right;
+  }
+  
+  div.material-table .table-footer select {
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  div.material-table .table-title {
+    font-size: 20px;
+    color: #000;
+  }
+  
+  div.material-table table tr td {
+    padding: 0 0 0 56px;
+    height: 48px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    border-bottom: solid 1px #DDDDDD;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  div.material-table table thead {
+    border-bottom: solid 1px #DDDDDD;
+  }
+  
+  div.material-table table tr td a {
+    color: inherit;
+  }
+  
+  div.material-table table tr td a i {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  
+  div.material-table table tr {
+    font-size: 12px;
+  }
+  
+  div.material-table table th {
+    font-size: 12px;
+    font-weight: 500;
+    color: #757575;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 0;
+    height: 56px;
+    padding-left: 56px;
+    vertical-align: middle;
+    outline: none !important;
+  }
+  
+  div.material-table table th.sorting_asc,
+  div.material-table table th.sorting_desc {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  div.material-table table th.sorting:after,
+  div.material-table table th.sorting_asc:after,
+  div.material-table table th.sorting_desc:after {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    word-wrap: normal;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    content: "arrow_back";
+    -webkit-transform: rotate(90deg);
+    display: none;
+    vertical-align: middle;
+  }
+  
+  div.material-table table th.sorting:hover:after,
+  div.material-table table th.sorting_asc:after,
+  div.material-table table th.sorting_desc:after {
+    display: inline-block;
+  }
+  
+  div.material-table table th.sorting_desc:after {
+    content: "arrow_forward";
+  }
+  
+  div.material-table table tbody tr:hover {
+    background-color: #EEE;
+  }
+  
+  div.material-table table th:first-child,
+  div.material-table table td:first-child {
+    padding: 0 0 0 24px;
+  }
+  
+  div.material-table table th:last-child,
+  div.material-table table td:last-child {
+    padding: 0 14px 0 0;
+  }
+
+  [data-href] {
+    cursor: pointer;
+}
+
+
+.nopad {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.image-checkbox {
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 4px solid transparent;
+    margin-bottom: 0;
+    outline: 0;
+    color: #f3712e;
+    font-weight: bold;
+}
+.image-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.image-checkbox-checked {
+    border-color: #f3712e;
+}
+.image-checkbox .fa {
+    position: absolute;
+    color: #f3712e;
+    background-color: #fff;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+.image-checkbox-checked .fa {
+    display: block !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.h-bf::after {
+    content: '';
+    width: 10rem;
+    height: 0.2rem;
+    background: #f3712e;
+    display: block;
+    margin-top: 1rem;
+}
+
+.color-drag {
+    color: #f3712e !important;
+}
+
+.color-btn {
+    color: #fff;
+    background-color: #f3712e;
+    border-color: #f3712e;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f3712e;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 174, 0, 0.308);
+}
+
+.inputDnD .form-control-file {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 6em;
+    outline: none;
+    visibility: hidden;
+    cursor: pointer;
+    background-color: #c61c23;
+    box-shadow: 0 0 5px solid currentColor;
+  }
+  .inputDnD .form-control-file:before {
+    content: attr(data-title);
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    width: 100%;
+    min-height: 6em;
+    line-height: 2em;
+    padding-top: 1.5em;
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+    border: 0.25em dashed currentColor;
+    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  .inputDnD .form-control-file:hover:before {
+    border-style: solid;
+    box-shadow: inset 0px 0px 0px 0.25em currentColor;
+  }
+
+  .custom-img {
+      width: 5rem;
+  }
+
+  .w-20 {
+    width: 15rem;
+  }
